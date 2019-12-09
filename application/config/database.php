@@ -75,11 +75,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'mariadb'
-	'database_user' => 'bn_app'
-	'database_password' => 'nOJWPKEE91'
-	'databasename' => 'bitnami_app_N6ekt'
-	'dbdriver' => 'mysqli',
+	'hostname' => 'cerdom-postgres-db',
+	'username' => 'admin',
+	'password' => 'admin',
+	'database' => 'dbcerdom',
+	'dbdriver' => 'postgre',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
